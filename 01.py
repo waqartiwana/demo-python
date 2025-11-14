@@ -43,3 +43,7 @@ elif address == address3:
     print(f"{name} and {name3} live at the same address.")
     
 
+
+# comparing all 3 users' address
+if address == address2 and address == address3:
+    print("All users live at the same address.")
