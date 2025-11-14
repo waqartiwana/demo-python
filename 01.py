@@ -16,7 +16,19 @@ phone2 = input("Enter your phone number: ")
 # print the details
 print(f"Name: {name2}\nAge: {age2}\nAddress: {address2}\nPhone: {phone2}")
 
-if age > age2:
-    print(f"{name} is older than {name2}")
+# ask 3rd user for their name and age and other details
+name3 = input("Enter your name: ")
+age3 = int(input("Enter your age: "))
+address3 = input("Enter your address: ")
+phone3 = input("Enter your phone number: ")
+
+# print the details
+print(f"Name: {name3}\nAge: {age3}\nAddress: {address3}\nPhone: {phone3}")
+
+# comparing all 3 users' age
+if age > age2 and age > age3:
+    print(f"{name} is older than {name2} and {name3}")
+elif age3 > age and age3 > age2:
+    print(f"{name3} is older than {name} and {name2}")
 else:
-    print(f"{name2} is older than {name}")
+    print(f"{name2} is older than {name} and {name3}")
