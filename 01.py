@@ -33,3 +33,13 @@ elif age3 > age and age3 > age2:
 else:
     print(f"{name2} is older than {name} and {name3}")
 
+
+# comparing all 3 users' address
+if address == address2 and address == address3:
+    print("All users live at the same address.")
+elif address == address2:
+    print(f"{name} and {name2} live at the same address.")
+elif address == address3:
+    print(f"{name} and {name3} live at the same address.")
+    
+
